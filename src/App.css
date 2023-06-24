@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.game-card {
+  width: 250px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.game-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.game-card h2 {
+  margin-top: 10px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.genre-filter select {
+  padding: 8px;
+  border-radius: 4px;
+}
+
