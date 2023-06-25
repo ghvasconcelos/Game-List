@@ -1,13 +1,13 @@
 import React from 'react';
-import GameList from './components/GameList';
+import GameList from './GameList';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
       <h1>Lista de Jogos</h1>
       <GameList />
     </div>
   );
-}
+};
 
 export default App;
