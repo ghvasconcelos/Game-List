@@ -7,3 +7,7 @@ body {
   background-color: #343a40;
   color: #fff;
 }
+
+.titulo-pagina {
+  display: flex;
+}
